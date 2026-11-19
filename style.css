@@ -1,0 +1,59 @@
+body {
+    font-family: Roboto, Consolas, 'Courier New', monospace;
+    background-color: rgb(151, 221, 245);
+    margin: 200px;
+}
+
+a {text-decoration: none;}
+
+.header {font-size: 24px;}
+
+.links a {color: #f9faf8;}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+        display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: #f9faf8;
+}
+
+.header, .Titlebox {
+    background-color: #1f2937;
+    color: #f9faf8; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px; 
+}
+
+.boxleft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boxtitle {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.boxtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.topbutton a {color: #e5e7eb;}
+
+.topbutton{
+    font-size: 30px;
+    color: #eaecf0;
+    font-weight: 700;
+    background-color: #3882f6;
+    align-self: flex-start;
+    padding: 8px 28px;
+    border-radius: 10px;
+}
+
+.mainimage {border-radius: 10px;}
