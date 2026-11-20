@@ -163,3 +163,13 @@ a {text-decoration: none;}
     display: flex;
     margin: auto;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 14px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    padding: 20px;
+}
