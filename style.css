@@ -23,6 +23,7 @@ a {text-decoration: none;}
 
 .header, .Titlebox {
     background-color: #1f2937;
+    min-width: 250px;
     color: #f9faf8; 
     display: flex;
     justify-content: space-between;
@@ -110,6 +111,7 @@ a {text-decoration: none;}
 }
 
 .containertwo {
+    min-width: 250px;
     color: #1f2937;
     font-style: italic;
     background-color: #b0c3eb;
@@ -142,7 +144,7 @@ a {text-decoration: none;}
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    flex: 1;
+    min-width: 250px;
 }
 
 .titleb, .textb {
@@ -172,4 +174,5 @@ a {text-decoration: none;}
     margin-right: 150px;
     text-align: center;
     padding: 20px;
+    min-width: 250px;
 }
